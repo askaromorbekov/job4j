@@ -1,5 +1,5 @@
 /**
- * Класс Calculate для вывода строки
+ * Class Calculate to display the message
  *
  * @author Askar Omorbekov (omorbekov.a@yandex.ru)
  * @version 0.1

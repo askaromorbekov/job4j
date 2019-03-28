@@ -1,8 +1,8 @@
-﻿/**
- * Класс Calculate для вывода строки
+/**
+ * Class Calculate to display the message
  * @author Askar Omorbekov (omorbekov.a@yandex.ru)
- * @since 28.03.2019
  * @version 0.1
+ * @since 28.03.2019
 */
 package ru.job4j.calculate;
 
