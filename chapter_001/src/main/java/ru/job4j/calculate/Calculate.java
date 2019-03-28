@@ -17,4 +17,5 @@ public class Calculate {
 	public String echo(String name) {
 		return "Echo, echo, echo : " + name;
 	}
+	
 }
