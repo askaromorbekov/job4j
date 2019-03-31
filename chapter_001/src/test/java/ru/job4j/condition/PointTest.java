@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 import org.junit.Test;
-import static org.hamcrest.Matchers.closeTo;
+import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -20,7 +20,7 @@ public class PointTest {
     public void whenZeroAndTenThenTen() {
         Point point = new Point();
         double result = point.distance(5, 4, 10, 8);
-        assertThat(result, closeTo(6D, 0.5));
+        assertThat(result, is(6D));
     }
 
 }

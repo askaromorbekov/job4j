@@ -16,6 +16,6 @@ public class Point {
         double first = Math.pow(x2 - x1, 2);
         double two = Math.pow(y2 - y1, 2);
         double sqrt = Math.sqrt(first + two);
-        return sqrt;
+        return Math.round(sqrt);
     }
 }
