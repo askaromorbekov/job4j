@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 /**
- * Вычисление Max Min
+ * Max Min
  */
 
 public class Max {

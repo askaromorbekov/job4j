@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Test Max
+ * Test class Max
  * @author Askar Omorbekov (omorbekov.a@yandex.ru)
  * @version 0.7
  * @since 01.04.2019
