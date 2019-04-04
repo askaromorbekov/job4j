@@ -1,5 +1,6 @@
 package ru.job4j.condition;
 
+
 public class Triangle {
     /**
      * Метод вычисления периметра по длинам сторон.
@@ -25,13 +26,13 @@ public class Triangle {
      */
     public double area(int x1, int y1, int x2, int y2, int x3, int y3) {
         double rsl = -1;
-        double a = new Point().distance(x1, y1, x2, y2); //x1=2 x2=4 y1=4 y2=6 //x12=4 y12=4 //xy=8 //2.8
-        double b = new Point().distance(x2, y2, x3, y3); //x2=4 x3=10 y2=6 y3=18 //x23=6 y23=12 //xy=18 //4.2
-        double c = new Point().distance(x1, y1, x3, y3); //x1=2 x3=10 y1=4 y3=18 //x13=8 y13=12 //xy=20 //4.5
-        double p = period(a, b, c); //5.75
+        double a = new Point().distance(x1, y1, x2, y2);
+        double b = new Point().distance(x2, y2, x3, y3);
+        double c = new Point().distance(x1, y1, x3, y3);
+        double p = period(a, b, c);
         if (this.exist(a, b, c)) {
-            // написать формулу для расчета площади треугольника. 5.75
-            rsl = -1;
+            rsl = p * (p - a) * (p - b) * (p - c);
+            rsl = Math.sqrt(rsl);
         }
         return rsl;
     }
@@ -46,7 +47,7 @@ public class Triangle {
      * @param c Длина от точки b c.
      * @return .
      */
-    private boolean exist(double a, double c, double b) {
-        return false;
+    private boolean exist(double a, double b, double c) {
+        return a < b + c && b < a + c && c < a + b;
     }
 }
