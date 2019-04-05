@@ -13,10 +13,9 @@ public class Point {
      * @return корень sqrt.
      */
     public double distance(int x1, int y1, int x2, int y2) {
-        double first, two, result;
-        first = Math.pow(x2 - x1, 2);
-        two = Math.pow(y2 - y1, 2);
-        result = Math.sqrt(first + two);
+        double first = Math.pow(x2 - x1, 2);
+        double two = Math.pow(y2 - y1, 2);
+        double result = Math.sqrt(first + two);
         return result;
     }
 }
