@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 /**
  *
- * @author Askar Omorbekov (parsentev@yandex.ru)
+ * @author Askar Omorbekov (omorbekov.a@yandex.ru)
  * @version 08.04.2019
  * @since 0.1
  */
