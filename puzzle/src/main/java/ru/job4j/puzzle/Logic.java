@@ -68,16 +68,21 @@ public class Logic {
 
     public boolean isWin() {
         int[][] table = this.convert();
-        boolean result = true;
-        for (int row = 0; row < table.length; row++) { // вн.цикл
-            if (table[0][row] == 1) {                  // поиск по колонке или строке = 1
-                if (table[row][0] == 1) {
-                    result = true;                     // return true если 1 обнаружен
-                }
-            }
-            for (int col = 0; col < table.length; col++) { // вн.цикл
-                if (table[col][table.length - 1] != 1) {   // тут не могу сообразить как дальше быть чтобы определить 1 по строке или колонке
-                    result = false;
+        boolean result = false;
+        int count = 0;
+        int count2 = 0;
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table.length; j++) {
+                if (table[0][j] == 1 || table[i][0] == 1) {
+                    count++;
+                    count2++;
+                    if (table[i][j] != 1) {
+                        count = 0;
+                        count2 = 0;
+                        result = false;
+                    } if (count == 5) {
+                        result = true;
+                    }
                 }
             }
         }
