@@ -3,7 +3,6 @@ package ru.job4j.condition;
 /**
  * Max Min
  */
-
 public class Max {
     /**
      * Вычисляем максимальную сторону с помощью тернарного оператора ?.

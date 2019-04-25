@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-
 public class Triangle {
     /**
      * Метод вычисления периметра по длинам сторон.
@@ -16,7 +15,6 @@ public class Triangle {
         perimeter = (a + b + c) / 2;
         return perimeter;
     }
-
     /**
      * Метод должен вычислить прощадь треугольканива.
      * Формула.
@@ -36,7 +34,6 @@ public class Triangle {
         }
         return rsl;
     }
-
     /**
      * Метод проверяет можно ли построить треугольник с такими длинами сторон.
      *

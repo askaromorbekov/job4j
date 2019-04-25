@@ -71,21 +71,7 @@ public class Logic {
         boolean result = false;
         int count = 0;
         int count2 = 0;
-        for (int i = 0; i < table.length; i++) {
-            for (int j = 0; j < table.length; j++) {
-                if (table[0][j] == 1 || table[i][0] == 1) {
-                    count++;
-                    count2++;
-                    if (table[i][j] != 1) {
-                        count = 0;
-                        count2 = 0;
-                        result = false;
-                    } if (count == 5) {
-                        result = true;
-                    }
-                }
-            }
-        }
+
         return result;
     }
 

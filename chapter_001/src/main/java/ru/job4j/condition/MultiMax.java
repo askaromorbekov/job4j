@@ -3,7 +3,6 @@ package ru.job4j.condition;
 /**
  * Max из трех чисел
  */
-
 public class MultiMax {
     /**
      * Метод с использованием условного оператора "if" для максимума из трех чисел.

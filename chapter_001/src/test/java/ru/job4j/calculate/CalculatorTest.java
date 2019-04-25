@@ -3,7 +3,6 @@ package ru.job4j.calculate;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Test.
  *
@@ -11,7 +10,6 @@ import static org.junit.Assert.assertThat;
  * @version 0.2
  * @since 30.03.2019
  */
-
 public class CalculatorTest {
     /**
      * Test +

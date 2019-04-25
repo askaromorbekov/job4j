@@ -4,7 +4,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.collection.IsArrayContainingInAnyOrder.arrayContainingInAnyOrder;
-
 /**
  * @author Askar Omorbekov (omorbekov.a@yandex.ru)
  * @version 14.04.2019

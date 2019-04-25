@@ -3,7 +3,6 @@ package ru.job4j.calculate;
 import org.junit.Test;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
-
 /**
  * Test Fit
  *

@@ -18,7 +18,6 @@ public class FindLoopTest {
         int expect = 0;
         assertThat(result, is(expect));
     }
-
     /**
      * Тест на ошибку в поиске индекса в массиве.
      */

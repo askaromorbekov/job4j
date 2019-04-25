@@ -3,7 +3,6 @@ package ru.job4j.loop;
 /**
  * Сумма четных чисел
  */
-
 public class Counter {
     /**
      * Метод использует цикл for и вложенное условие if

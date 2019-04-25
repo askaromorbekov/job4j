@@ -3,7 +3,6 @@ package ru.job4j.calculate;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Test converter
  *
@@ -11,7 +10,6 @@ import static org.junit.Assert.assertThat;
  * @version 0.3
  * @since 30.03.2019
  */
-
 public class ConverterTest {
     /**
      * Test Convert to dollar.
@@ -43,7 +41,6 @@ public class ConverterTest {
         int expected = 4270;
         assertThat(result, is(expected));
     }
-
     /**
      * Test Convert to tenge.
      */
